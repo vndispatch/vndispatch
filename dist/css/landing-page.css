@@ -1,0 +1,184 @@
+/*!
+ * Start Bootstrap - Landing Page v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700; }
+
+.hidden {
+  display: none;
+}
+
+.btn em {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn-pink {
+  color: #fff;
+  background-color: #f53157;
+  border-color: #f53157;
+}
+
+.btn-pink:hover {
+  color: #fff;
+  background-color: #e21039;
+  border-color: #e21039;
+}
+
+.btn-outline-pink {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.btn-outline-pink:hover {
+  color: #fff;
+  background-color: #e21039;
+  border-color: #e21039;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #38c662;
+  border-color: #38c662;
+}
+
+.btn-green:hover {
+  color: #fff;
+  background-color: #13a93f;
+  border-color: #13a93f;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+  header.masthead .overlay {
+    position: absolute;
+    background-color: #151d28;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8; }
+  header.masthead h1 {
+    font-size: 2rem; }
+  header.masthead h1 em {
+    font-style: normal;
+    color: #f53157;
+  }
+  header.masthead h2 {
+    font-size: 1.5rem;
+    font-weight: 300; }
+    @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 12rem;
+      padding-bottom: 12rem; }
+      header.masthead h1 {
+        font-size: 2.7rem; } }
+
+.showcase .showcase-text {
+  padding: 3rem; }
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover; }
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem; } }
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .features-icons .features-icons-item {
+    max-width: 20rem; }
+    .features-icons .features-icons-item .features-icons-icon {
+      height: 7rem; }
+      .features-icons .features-icons-item .features-icons-icon i {
+        color: #f53157;
+        font-size: 4.5rem; }
+    .features-icons .features-icons-item:hover .features-icons-icon i {
+      font-size: 5rem; }
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .testimonials .testimonial-item {
+    max-width: 18rem; }
+    .testimonials .testimonial-item img {
+      max-width: 12rem;
+      box-shadow: 0px 5px 5px 0px #adb5bd; }
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead-2.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem; }
+  .call-to-action .overlay {
+    position: absolute;
+    background-color: #151d28;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8; }
+  .call-to-action h2,
+  .call-to-action h3  {
+    font-weight: 300;
+  }
+  .call-to-action h3  {
+    font-size: 1.5rem !important;
+  }
+  .call-to-action .btn {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    height: 50px;
+    line-height: 32px;
+    padding: 0.5rem 1.5rem;
+    width: 200px;
+  }
+  @media (max-width: 768px) {
+  .call-to-action .btn-outline-pink {
+    margin-top: 1rem; } }
+
+footer.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  footer.footer .copyright {
+    font-size: 0.875rem;
+  }
+  footer.footer .copyright a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #f53157;
+  }
+  footer.footer .copyright a:hover {
+    text-decoration: underline;
+  }
+  footer.footer .list-inline a {
+    font-size: 1.2rem;
+    color: #f53157;
+  }
